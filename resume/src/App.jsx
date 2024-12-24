@@ -14,11 +14,10 @@ export const App = () => {
       <Container fluid>
         <Row id="row-section">
           <Col sm={4} id="side-col">
-            {/* <SideCopy
+            <SideCopy
               open={openSideBar}
               onClose={() => setOpenSideBar(false)}
-            /> */}
-            <SideCopy/>
+            />
           </Col>
           <Col sm={8} id="main-col">
             <Main />
