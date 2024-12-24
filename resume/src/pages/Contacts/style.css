@@ -1,0 +1,163 @@
+.main-Contact {
+  width: -webkit-fill-available;
+  height: 120vh;
+  left: 3px;
+  position: relative;
+}
+.Contact-header {
+  position: relative;
+  padding-top: 5%;
+  left: 3%;
+  margin-bottom: 2%;
+  font-size: 2.7rem;
+  font-family: Raleway, sans-serif;
+  color: #163a6c;
+}
+#contactHR {
+  width: 7%;
+  position: relative;
+  left: 3%;
+  margin-top: -0.5%;
+  border-bottom: 5px solid #159ddc;
+}
+.paraContact {
+  font-size: 1.4rem;
+  position: absolute;
+  padding: 1% 4%;
+}
+
+.ulItem {
+  list-style: none;
+}
+.bGPart,
+.contact-form {
+  background-color: #fefffe;
+  border-radius: 5px;
+  border: 1px solid #fefffe;
+  box-shadow: -5px 5px 5px 5px #f4f4f5;
+}
+.icons {
+  font-size: 3rem;
+  border: 1px solid #159ddc;
+  border-radius: 50%;
+  color: #82cff3;
+  padding: 6px;
+  background: #dff3fc;
+}
+.icons:hover {
+  background-color: #159ddc;
+}
+.contactDetail {
+  display: flex;
+}
+.location {
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  position: relative;
+  left: 5%;
+}
+.hans {
+  font-size: 1.1rem;
+  position: relative;
+  left: 12%;
+  text-transform: capitalize;
+  margin-top: -3%;
+}
+.gmail {
+  text-transform: lowercase;
+}
+.liDetail {
+  margin-top: 4%;
+}
+
+/* detail */
+.contact-form .name {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 2.9%;
+  position: relative;
+  padding-left: 3px;
+  color: #272829;
+}
+.input:hover {
+  border: 1px solid #159ddc;
+}
+.input {
+  width: 90%;
+  position: relative;
+  left: 4%;
+  height: 7vh;
+  padding: 5px;
+  border: 1px solid #cfd4db;
+}
+.contact-form {
+  height: 82vh;
+}
+.textArea {
+  height: 25vh;
+}
+.send {
+  position: relative;
+  left: 35%;
+  margin-top: 5%;
+  background-color: #159ddc;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  border-radius: 10px;
+}
+.footer {
+  float: right;
+  font-size: 4rem;
+}
+.footIcon {
+  color: #159ddc;
+  position: sticky;
+}
+
+/* media  sections */
+
+@media only screen and (max-width: 600px) {
+  .footIcon {
+    margin-top: -30vh;
+  }
+  .row-cont {
+    display: block !important;
+    width: 162vh;
+  }
+  .gmail {
+    margin-top: -10%;
+    left: 29%;
+    position: relative;
+  }
+  .location {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .hans {
+    position: relative;
+    left: 35%;
+    margin-top: -9%;
+  }
+  .bGPart,
+  .contact-form {
+    background-color: #fefffe;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 3px #f4f4f5;
+    border: 1px solid #fefffe;
+    height: 102vh;
+  }
+  .contact-form {
+    height: 90vh;
+  }
+   .contactSections .col-6 {
+    width: 60%;
+    margin-top: 9%;
+    height: 89vh;
+  }
+  .liDetail {
+    margin-top: 7%;
+  }
+}

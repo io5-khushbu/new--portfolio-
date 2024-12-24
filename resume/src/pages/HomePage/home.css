@@ -1,0 +1,116 @@
+#homeImage {
+  width: 100%;
+  background-image: url("../../assets/khushbu-1.jpg");
+  background-size: cover;
+  height: 100vh;
+  /* color: #1e3f56; */
+  color: #fff;
+}
+.headName {
+  position: absolute;
+  margin-top: 13%;
+  left: 20%;
+  font-size: 3rem;
+}
+.skill {
+  position: absolute;
+  margin-top: 19%;
+  left: 20%;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.first-text {
+  /* color: #1e3f56; */
+  color: #fff;
+}
+#threeLines {
+  font-size: 3rem;
+  padding: 2px;
+  color: #fff;
+  position: relative;
+  right: 3%;
+  float: right;
+  background-color: #159ddc;
+  border-radius: 50%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+.btnThree {
+  background-color: #b4ac7d;
+  border: none;
+}
+#ex {
+  display: none;
+}
+
+/* media small sections */
+@media screen and (max-width: 320px) {
+  #ex {
+    display: block;
+  }
+  .btnThree {
+    background-color: #b4ac7d;
+    border: none;
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #homeImage {
+    width: 135%;
+    background-image: url("../../assets/khushi.jpg") !important;
+    background-size: cover;
+    height: 100vh;
+    /* color: #1e3f56; */
+    color: #fff;
+  }
+  .headName {
+    position: absolute;
+    margin-top: 22%;
+    left: 6%;
+    font-size: 1.6rem;
+    color: #163a6c;
+  }
+  .skill {
+    position: absolute;
+    margin-top: 30%;
+    left: 8%;
+    font-size: 1.5rem;
+  }
+  .first-text {
+    color: #163a6c;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headName {
+    position: absolute;
+    margin-top: 22%;
+    left: 6%;
+    font-size: 2rem;
+  }
+  .skill {
+    position: absolute;
+    margin-top: 30%;
+    left: 8%;
+    font-size: 1.9rem;
+  }
+  #ex {
+    display: block;
+  }
+  #threeLines {
+    display: none;
+  }
+}
+
+/* Table screen */
+@media only screen and(max-width:768px) {
+  #homeImage {
+    width: 100%;
+    left: 5%;
+    position: relative;
+  }
+  #ex {
+    display: block;
+  }
+}

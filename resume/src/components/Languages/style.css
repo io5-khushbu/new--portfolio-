@@ -1,0 +1,71 @@
+.main-skill {
+  background-color: #f5f9fc;
+  width: -webkit-fill-available;
+  height: 74vh;
+  left: 3px;
+  position: relative;
+}
+.skill-header {
+  position: relative;
+  padding-top: 5%;
+  left: 3%;
+  margin-bottom: 2%;
+  font-size: 2.7rem;
+  font-family: Raleway, sans-serif;
+  color: #163a6c;
+}
+#skillHR {
+  width: 7%;
+  position: relative;
+  left: 3%;
+  margin-top: -0.5%;
+  border-bottom: 5px solid #159ddc;
+}
+.paraSkill {
+  font-size: 1.4rem;
+  position: absolute;
+  padding: 1% 4%;
+}
+#progressSection {
+  position: relative;
+  margin-top: 7%;
+}
+.divItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.head {
+  position: relative;
+  right: 23%;
+  text-transform: uppercase;
+}
+.percentage {
+  position: relative;
+  left: 25%;
+}
+.ulItem1 {
+  list-style: none;
+  position: relative;
+  right: 3%;
+}
+.liList1 {
+  padding: 1.5% 2%;
+  width: 60%;
+}
+
+/* media  sections */
+
+@media only screen and (max-width: 600px) {
+  .paraSkill {
+    font-size: 1.2rem;
+    position: absolute;
+  }
+  .ulItem1 {
+    margin-top: 12%;
+  }
+  .liList1 {
+ 
+    width: 100%;
+  }
+}

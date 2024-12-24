@@ -1,0 +1,48 @@
+#resume {
+  position: relative;
+  margin-top: 3%;
+  left: 3%;
+  margin-bottom: 2%;
+  color: #163a6c;
+  text-transform: capitalize;
+}
+#resumeHR {
+  width: 6%;
+  position: relative;
+  left: 3%;
+  border-bottom: 5px solid #159ddc;
+}
+.colorWord {
+  color: #000;
+}
+.main-resume {
+  height: auto;
+}
+.resumeSummary {
+  text-transform: capitalize;
+  border-left: 2px solid #1e3f56;
+  padding: 0% 3%;
+  font-size: 1.2rem;
+  margin-top: 7%;
+}
+#email {
+  text-transform: lowercase;
+}
+#Education {
+  margin-top: 5%;
+}
+.bGDate {
+  background-color: #e4edf9;
+  width: 20%;
+  padding: 3px;
+}
+
+/* media  sections */
+
+@media only screen and (max-width: 600px) {
+  .bGDate {
+    background-color: #e4edf9;
+    width: 55%;
+    padding: 3px;
+  }
+}

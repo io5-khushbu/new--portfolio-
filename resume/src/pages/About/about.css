@@ -1,0 +1,78 @@
+.myPic {
+  width: 100%;
+  height: 91%;
+  position: relative;
+  z-index: -2;
+  border: 1px solid rebeccapurple;
+}
+#about {
+  position: relative;
+  margin-top: 3%;
+  left: 3%;
+  margin-bottom: 2%;
+  color: #163a6c;
+}
+#aboutHR {
+  width: 7%;
+  position: relative;
+  left: 3%;
+  border-bottom: 5px solid #159ddc;
+}
+#aboutPara {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.about_detail {
+  display: flex;
+  position: relative;
+  margin-top: 4%;
+}
+.h1Frontend {
+  color: #163a6c;
+}
+#paraFront {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  width: 90%;
+}
+#FirstULItem {
+  list-style: none;
+  position: relative;
+  right: 2%;
+  margin-top: 5%;
+  width: 80%;
+}
+.liTeam {
+  display: flex;
+}
+#FirstULItem .iconGreater {
+  position: relative;
+  right: 2%;
+  top: 6px;
+  color: #159ddc;
+}
+#FirstULItem .ptitle {
+  color: #163a6c;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.paraLine {
+  font-size: 18px;
+  position: relative;
+  left: 2%;
+}
+
+/* media  sections */
+
+@media only screen and (max-width: 600px) {
+  .myPic {
+    width: 91vh;
+    height: 91%;
+    position: relative;
+    z-index: -2;
+    border: 1px solid rebeccapurple;
+  }
+}

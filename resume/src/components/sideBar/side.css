@@ -1,0 +1,102 @@
+.backColor {
+  background-color: #000;
+  color: #fff;
+  width: -webkit-fill-available;
+  position: relative;
+  right: 4%;
+  height: 100vh;
+}
+#image {
+  border-radius: 50% !important;
+  width: 140px;
+  position: relative;
+  margin-top: 3.5vh;
+  left: 54%;
+  border: 9px solid lightgrey;
+}
+/*  name*/
+.name {
+  font-size: 1.3rem;
+  color: #fff !important;
+  margin: 7px 40px;
+}
+#ulList {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  position: relative;
+  right: 17%;
+}
+#ulList a {
+  color: #fff !important;
+}
+.listItem {
+  cursor: pointer;
+  background-color: #1e3f56;
+  position: relative;
+  padding: 5px;
+  border-radius: 50%;
+  height: 6vh;
+  width: 16%;
+  left: 6%;
+  margin-top: 8px;
+  padding-left: 12px;
+  padding-top: 2px;
+}
+#ulList :hover {
+  background-color: #1aa0df;
+}
+.listSelect {
+  list-style: none;
+  margin-top: 5%;
+}
+.listSelect a {
+  text-decoration: none;
+  color: #fff;
+}
+.selectItem {
+  margin: 5% 10%;
+  font-size: 1.1rem;
+}
+#selectSec {
+  margin-top: 10vh;
+}
+.aSection {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.icon {
+  font-size: 1.5rem;
+}
+.para1 {
+  text-decoration: none;
+  padding-left: 7%;
+  padding-top: 1%;
+}
+.lastItem {
+  margin-top: 9vh;
+  padding-left: 8vh;
+  font-size: 1.1rem;
+}
+.para2 {
+  padding-top: 4%;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/* small screen */
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+/* Table screen */
+@media only screen and(max-width:768px) {
+  .navbar {
+    display: none !important;
+  }
+}
